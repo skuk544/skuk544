@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=varela+Round&display=swap');
+body {
+    background-color: rgb(249, 203, 143);
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+    background-color: rgb(13, 14, 13);
+    color: rgb(235, 229, 229);
+}
+
+nav ul li {
+    font-size: 25px;
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 65px;
+    padding: 0 19px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+.container {
+    height: 69vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 32px;
+    padding: 32px;
+    background-image: url(sa.jpg);
+    background-size: contain;
+    border-image-width: 5px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.po {
+    margin-left: 67px;
+}
+
+.bottom {
+    position: sticky;
+    height: 4rem;
+    background-color: rgb(240, 243, 81);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block-end: 1px;
+}
+
+.icons {
+    display: flex;
+    gap: 203px;
+    margin-top: 12px;
+    height: 15vh;
+    width: 49vh;
+}
+
+#volume {
+   width: 150vh;
+  
+   display: flex;
+}
+
+.songItems {
+    height: 12rem;
+    display: flex;
+    color: rgb(255, 0, 251);
+    width: 15rem;
+    margin: 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 20%;
+    padding-top: 11rem;
+}
+
+#boxmut {
+    display: flex;
+    height: 20vh;
+    width: 32vh;
+    border-radius: 35%;
+}
+
+
+
+div {
+    margin: 15px;
+    padding: 52px;
+    margin-left: 44px;
+}
+
+#bo {
+    font-size: 35px;
+    width: 40rem;
+    height: 3rem;
+}
+
+#bo1 {
+    font-size: 38px;
+    width: 12rem;
+    height: 4rem;
+}
+
+#opl {
+    height: 5rem;
+    width: 50px;
+}
